@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #ffffe5;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* CABEÇALHO PADRÃO */
+header {
+    height: 50px;
+    padding: 10px;
+    display: block;
+
+}
+#title {
+    float: left;
+    display: block;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+    
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 10px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #a6c288;
+}
+nav ul li a {
+    color: #17181f;
+    margin: 15px;
+}
+
+
+/* HOME */
+
+#conteudoHome{
+    color: aquamarine;
+}
+
+/* PLANOS */
+.planos{
+    width: 1080px;
+    display: block;
+    float: left;
+    margin: 150px;
+    margin-left: 160px;
+}
+
+.titlePlans{
+    text-align: center;
+}
+
+#padrao{
+    display: block;
+    float: left;
+    color: #17181f;
+    background-color: #ffffe5;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 5px 1px 15px 5px #dbdbbf;
+
+}
+#plus{
+    display: block;
+    float: left;
+    color: #17181f;
+    background-color: #ffffe5;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 5px 1px 15px 5px #dbdbbf;
+
+}
+
+#ultra{
+    display: block;
+    float: left;
+    color: #17181f;
+    background-color: #ffffe5;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 5px 1px 15px 5px #dbdbbf;
+
+}
+
+section ul li{
+    color: #17181f;
+    
+}
+
+.selectPlan{
+    background-color:#17181f;
+    color: #ffffe5;
+    border: none;
+    border-radius: 10PX;
+    height: 30PX;
+    width: 200PX;
+}
+
+
+
+/* CONTATO */
