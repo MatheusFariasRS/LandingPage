@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, Sans-serif;
-    background-color: #ffffe5;
+    background-color: #17181f;
     margin: 0;
     padding: 0;
 }
@@ -12,17 +12,20 @@ body{
 /* CABEÇALHO PADRÃO */
 header {
     height: 50px;
-    padding: 10px;
+    padding: 0px;
     display: block;
 
 }
 #title {
     float: left;
     display: block;
+    margin-top: 0px;
+    margin-left: 10px;
 }
 nav ul {
     list-style-type: none;
     float: right;
+    margin-right: 30px;
     
 }
 nav ul li {
@@ -42,7 +45,7 @@ nav ul li a:hover {
     color: #a6c288;
 }
 nav ul li a {
-    color: #17181f;
+    color: #ebe68d;
     margin: 15px;
 }
 
@@ -70,24 +73,24 @@ nav ul li a {
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ffffe5;
+    background-color: #ebe68d;
     width: 300px;
     border-radius: 10px;
-    height: 300px;
-    box-shadow: 5px 1px 15px 5px #dbdbbf;
+    height: 400px;
+    box-shadow: 5px 1px 25px 15px #000000;
 
 }
 #plus{
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ffffe5;
+    background-color: #ebe68d;
     width: 300px;
     border-radius: 10px;
-    height: 300px;
+    height: 400px;
     margin-right: 40px;
     margin-left: 40px;
-    box-shadow: 5px 1px 15px 5px #dbdbbf;
+    box-shadow: 5px 1px 15px 5px #000000;
 
 }
 
@@ -95,16 +98,18 @@ nav ul li a {
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ffffe5;
+    background-color: #ebe68d;
     width: 300px;
     border-radius: 10px;
-    height: 300px;
-    box-shadow: 5px 1px 15px 5px #dbdbbf;
+    height: 400px;
+    box-shadow: 5px 1px 15px 5px #000000;
 
 }
 
 section ul li{
     color: #17181f;
+    padding-bottom: 15px;
+    font-weight:500;
     
 }
 
