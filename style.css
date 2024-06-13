@@ -41,8 +41,8 @@ nav ul li a:link {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    color: #a6c288;
+    text-decoration: none;
+    color: #0b8770;
 }
 nav ul li a {
     color: #ebe68d;
@@ -57,12 +57,24 @@ nav ul li a {
 }
 
 /* PLANOS */
+
+#text{
+    margin-top: 100px;
+    color: #ebe68d;
+    display: block;
+    width: 1080;
+    text-align: center;
+    
+}
+
+
 .planos{
     width: 1080px;
     display: block;
     float: left;
-    margin: 150px;
+    margin: 50px;
     margin-left: 160px;
+    
 }
 
 .titlePlans{
@@ -77,7 +89,8 @@ nav ul li a {
     width: 300px;
     border-radius: 10px;
     height: 400px;
-    box-shadow: 5px 1px 25px 15px #000000;
+    box-shadow: 5px 1px 15px 5px #000000;
+    padding: 0px;
 
 }
 #plus{
@@ -91,6 +104,7 @@ nav ul li a {
     margin-right: 40px;
     margin-left: 40px;
     box-shadow: 5px 1px 15px 5px #000000;
+    padding: 0px;
 
 }
 
@@ -103,25 +117,55 @@ nav ul li a {
     border-radius: 10px;
     height: 400px;
     box-shadow: 5px 1px 15px 5px #000000;
+    padding: 0px;
 
+}
+#padrao:hover{
+    box-shadow: 0px 0px 15px 10px #383737;
+}
+#plus:hover{
+    box-shadow: 0px 0px 15px 10px #383737;
+}
+
+#ultra:hover{
+    box-shadow: 0px 0px 15px 10px #383737;
 }
 
 section ul li{
     color: #17181f;
-    padding-bottom: 15px;
+    
     font-weight:500;
     
 }
 
 .selectPlan{
     background-color:#17181f;
-    color: #ffffe5;
+    color: #ebe68d;
     border: none;
-    border-radius: 10PX;
-    height: 30PX;
-    width: 200PX;
+    border-radius: 10px;
+    height: 30px;
+    width: 260px;
+    text-decoration: none;
+    
+    
+}
+#padrao .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 200px;
+}
+#plus .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 165px;
+}
+#ultra .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 147px;
 }
 
-
+.selectPlan:hover{
+    box-shadow: 1px 1px 5px 1px #000000;
+    background-color: #17181f;
+    
+}
 
 /* CONTATO */
