@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #17181f;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-image: url(/LandingPage/2.png);
+    height: 720px;
+    width: 1348px;
+}
+#container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* CABEÇALHO PADRÃO */
+header {
+    height: 50px;
+    padding: 0px;
+    display: block;
+}
+#title {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+    
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 10px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a {
+    margin: 15px;
+}
+
+
+/* HOME */
+
+#backImg{
+    opacity: 0.3;
+}
+
+
+
+#conteudoHome{
+    color: aquamarine;
+}
+
+/* PLANOS */
+
+#text{
+    margin-top: 100px;
+    display: block;
+    width: 1080;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9b5cc5; 
+    font-size: 25px; color: #e3f1f1;
+    text-shadow:#bad5ee 0px 0px 35px;
+    
+}
+
+
+.planos{
+    width: 1080px;
+    display: block;
+    float: left;
+    margin: 50px;
+    margin-left: 160px;
+    
+}
+
+.titlePlans{
+    text-align: center;
+}
+
+#pricePadrao{
+    text-align: center;
+}
+#pricePlus{
+    text-align: center;
+}
+#priceUltra{
+    text-align: center;
+}
+
+#padrao{
+    display: block;
+    float: left;
+    color: #1f1f17;
+    background-color: #edd1f3;
+    width: 300px;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 0px 0px 8px 1px #dfccec;
+    padding: 0px;
+    border: 2px solid #b878cc;
+    
+    
+
+}
+#plus{
+    display: block;
+    float: left;
+    color: #17181f;
+    background-color: #edd1f3;
+    width: 300px;
+    border-radius: 10px;
+    height: 400px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 0px 0px 8px 1px #dfccec;
+    padding: 0px;
+    border: 2px solid #b878cc;
+
+}
+
+#ultra{
+    display: block;
+    float: left;
+    color: #17181f;
+    background-color: #edd1f3;
+    width: 300px;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 0px 0px 8px 1px #dfccec;
+    padding: 0px;
+    border: 2px solid #b878cc;
+
+}
+#padrao:hover{
+     box-shadow: 0px 0px 20px 3px #dfccec;
+     margin-top: -20px;
+     border: 1px solid #b878cc;
+}
+#plus:hover{
+    box-shadow: 0px 0px 20px 3px #dfccec;
+    margin-top: -20px;
+    border: 1px solid #b878cc;
+
+}
+
+#ultra:hover{
+    box-shadow: 0px 0px 20px 3px #dfccec;
+    margin-top: -20px;
+    border: 1px solid #b878cc;
+}
+
+section ul li{
+    color: #17181f;
+    padding-bottom: 10px;
+    font-weight:500;
+    
+}
+
+.selectPlan{
+    background-color:#17181f;
+    color: #edd1f3;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 260px;
+    text-decoration: none;
+    
+    
+}
+#padrao .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 140px;
+}
+#plus .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 85px;
+}
+#ultra .selectPlan{
+    position: relative; left:-8%;
+    margin-top: 56px;
+}
+
+.selectPlan:hover{
+    box-shadow: 1px 1px 5px 1px #ffffff;
+    background-color: #17181f;
+}
+
+/* CONTATO */
