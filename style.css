@@ -3,6 +3,13 @@ body{
     background-color: #17181f;
     margin: 0;
     padding: 0;
+   
+}
+
+body {
+    background-image: url(/2.png);
+    height: 720px;
+    width: 1348px;
 }
 #container {
     width: 1080px;
@@ -14,7 +21,6 @@ header {
     height: 50px;
     padding: 0px;
     display: block;
-
 }
 #title {
     float: left;
@@ -26,6 +32,8 @@ nav ul {
     list-style-type: none;
     float: right;
     margin-right: 30px;
+    margin-top: 30px;
+    
     
 }
 nav ul li {
@@ -42,15 +50,25 @@ nav ul li a:link {
 
 nav ul li a:hover {
     text-decoration: none;
-    color: #0b8770;
+    color: white;
 }
 nav ul li a {
-    color: #ebe68d;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9b5cc5; 
+    font-size: 20px; color: #e3f1f1;
+    text-shadow:#bad5ee 0px 0px 35px;
     margin: 15px;
+    font-weight: bold;
 }
 
 
 /* HOME */
+
+#backImg{
+    opacity: 0.3;
+}
+
+
 
 #conteudoHome{
     color: aquamarine;
@@ -60,10 +78,13 @@ nav ul li a {
 
 #text{
     margin-top: 100px;
-    color: #ebe68d;
     display: block;
     width: 1080;
     text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9b5cc5; 
+    font-size: 25px; color: #e3f1f1;
+    text-shadow:#bad5ee 0px 0px 35px;
     
 }
 
@@ -81,30 +102,44 @@ nav ul li a {
     text-align: center;
 }
 
+#pricePadrao{
+    text-align: center;
+}
+#pricePlus{
+    text-align: center;
+}
+#priceUltra{
+    text-align: center;
+}
+
 #padrao{
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ebe68d;
+    background-color: #edd1f3;
     width: 300px;
     border-radius: 10px;
     height: 400px;
-    box-shadow: 5px 1px 15px 5px #000000;
+    box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
+    border: 2px solid #b878cc;
+    
+    
 
 }
 #plus{
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ebe68d;
+    background-color: #edd1f3;
     width: 300px;
     border-radius: 10px;
     height: 400px;
     margin-right: 40px;
     margin-left: 40px;
-    box-shadow: 5px 1px 15px 5px #000000;
+    box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
+    border: 2px solid #b878cc;
 
 }
 
@@ -112,35 +147,43 @@ nav ul li a {
     display: block;
     float: left;
     color: #17181f;
-    background-color: #ebe68d;
+    background-color: #edd1f3;
     width: 300px;
     border-radius: 10px;
     height: 400px;
-    box-shadow: 5px 1px 15px 5px #000000;
+    box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
+    border: 2px solid #b878cc;
 
 }
 #padrao:hover{
-    box-shadow: 0px 0px 15px 10px #383737;
+     box-shadow: 0px 0px 20px 3px #dfccec;
+     margin-top: -20px;
+     border: 1px solid #b878cc;
 }
 #plus:hover{
-    box-shadow: 0px 0px 15px 10px #383737;
+    box-shadow: 0px 0px 20px 3px #dfccec;
+    margin-top: -20px;
+    border: 1px solid #b878cc;
+
 }
 
 #ultra:hover{
-    box-shadow: 0px 0px 15px 10px #383737;
+    box-shadow: 0px 0px 20px 3px #dfccec;
+    margin-top: -20px;
+    border: 1px solid #b878cc;
 }
 
 section ul li{
     color: #17181f;
-    
+    padding-bottom: 10px;
     font-weight:500;
     
 }
 
 .selectPlan{
     background-color:#17181f;
-    color: #ebe68d;
+    color: #edd1f3;
     border: none;
     border-radius: 10px;
     height: 30px;
@@ -151,21 +194,20 @@ section ul li{
 }
 #padrao .selectPlan{
     position: relative; left:-8%;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 #plus .selectPlan{
     position: relative; left:-8%;
-    margin-top: 165px;
+    margin-top: 85px;
 }
 #ultra .selectPlan{
     position: relative; left:-8%;
-    margin-top: 147px;
+    margin-top: 56px;
 }
 
 .selectPlan:hover{
-    box-shadow: 1px 1px 5px 1px #000000;
+    box-shadow: 1px 1px 5px 1px #ffffff;
     background-color: #17181f;
-    
 }
 
 /* CONTATO */
