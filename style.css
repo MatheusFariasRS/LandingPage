@@ -7,7 +7,7 @@ body{
 }
 
 body {
-    background-image: url(/2.png);
+    background-image: url(/LandingPage/2.png);
     height: 720px;
     width: 1348px;
 }
@@ -53,12 +53,7 @@ nav ul li a:hover {
     color: white;
 }
 nav ul li a {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9b5cc5; 
-    font-size: 20px; color: #e3f1f1;
-    text-shadow:#bad5ee 0px 0px 35px;
     margin: 15px;
-    font-weight: bold;
 }
 
 
@@ -115,7 +110,7 @@ nav ul li a {
 #padrao{
     display: block;
     float: left;
-    color: #17181f;
+    color: #1f1f17;
     background-color: #edd1f3;
     width: 300px;
     border-radius: 10px;
