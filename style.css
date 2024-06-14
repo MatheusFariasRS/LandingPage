@@ -59,15 +59,6 @@ nav ul li a {
 
 /* HOME */
 
-#backImg{
-    opacity: 0.3;
-}
-
-
-
-#conteudoHome{
-    color: aquamarine;
-}
 
 /* PLANOS */
 
@@ -76,11 +67,6 @@ nav ul li a {
     display: block;
     width: 1080;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9b5cc5; 
-    font-size: 25px; color: #e3f1f1;
-    text-shadow:#bad5ee 0px 0px 35px;
-    
 }
 
 
@@ -97,16 +83,6 @@ nav ul li a {
     text-align: center;
 }
 
-#pricePadrao{
-    text-align: center;
-}
-#pricePlus{
-    text-align: center;
-}
-#priceUltra{
-    text-align: center;
-}
-
 #padrao{
     display: block;
     float: left;
@@ -116,11 +92,7 @@ nav ul li a {
     border-radius: 10px;
     height: 400px;
     box-shadow: 0px 0px 8px 1px #dfccec;
-    padding: 0px;
     border: 2px solid #b878cc;
-    
-    
-
 }
 #plus{
     display: block;
@@ -133,7 +105,6 @@ nav ul li a {
     margin-right: 40px;
     margin-left: 40px;
     box-shadow: 0px 0px 8px 1px #dfccec;
-    padding: 0px;
     border: 2px solid #b878cc;
 
 }
@@ -147,7 +118,6 @@ nav ul li a {
     border-radius: 10px;
     height: 400px;
     box-shadow: 0px 0px 8px 1px #dfccec;
-    padding: 0px;
     border: 2px solid #b878cc;
 
 }
