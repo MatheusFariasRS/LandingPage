@@ -7,20 +7,27 @@ body{
 }
 
 body {
-    background-image: url(/LandingPage/2.png);
-    height: 720px;
-    width: 1348px;
+    background-image: url(/2.png);
+    width: 100%;
+    height: 100%;
 }
 #container {
+    position: relative;
+    min-height: 100vh;
     width: 1080px;
     margin: 0 auto;
     padding: 0;
+
 }
 /* CABEÇALHO PADRÃO */
 header {
-    height: 50px;
+    height: 105px;
     padding: 0px;
     display: block;
+    background-color: #02061249;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 #title {
     float: left;
@@ -51,6 +58,8 @@ nav ul li a:link {
 nav ul li a:hover {
     text-decoration: none;
     color: white;
+    margin-top: 13px;
+    transition: all 130ms ease-in-out;
 }
 nav ul li a {
     margin: 15px;
@@ -59,27 +68,34 @@ nav ul li a {
 
 /* HOME */
 
-#backImg{
-    opacity: 0.3;
+#homeText{
+    color: #eeff00;
+    display: block;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+
+#textHome h2 {
+    font-size: 50px;
+    padding: 0;
 }
 
 
 
-#conteudoHome{
-    color: aquamarine;
-}
+
+
+
 
 /* PLANOS */
 
 #text{
-    margin-top: 100px;
+    margin-top: 150px;
     display: block;
-    width: 1080;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9b5cc5; 
-    font-size: 25px; color: #e3f1f1;
-    text-shadow:#bad5ee 0px 0px 35px;
+
     
 }
 
@@ -87,18 +103,21 @@ nav ul li a {
 .planos{
     width: 1080px;
     display: block;
-    float: left;
+    text-align: center;
     margin: 50px;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .titlePlans{
     text-align: center;
+    font-weight:900;
 }
 
 #pricePadrao{
     text-align: center;
+    
 }
 #pricePlus{
     text-align: center;
@@ -111,13 +130,14 @@ nav ul li a {
     display: block;
     float: left;
     color: #1f1f17;
-    background-color: #edd1f3;
+    background-color: #fcf7fd;
     width: 300px;
     border-radius: 10px;
     height: 400px;
     box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
     border: 2px solid #b878cc;
+    text-align: start;
     
     
 
@@ -126,7 +146,7 @@ nav ul li a {
     display: block;
     float: left;
     color: #17181f;
-    background-color: #edd1f3;
+    background-color: #fcf7fd;
     width: 300px;
     border-radius: 10px;
     height: 400px;
@@ -135,6 +155,8 @@ nav ul li a {
     box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
     border: 2px solid #b878cc;
+    text-align: start;
+    
 
 }
 
@@ -142,24 +164,27 @@ nav ul li a {
     display: block;
     float: left;
     color: #17181f;
-    background-color: #edd1f3;
+    background-color: #fcf7fd;
     width: 300px;
     border-radius: 10px;
     height: 400px;
     box-shadow: 0px 0px 8px 1px #dfccec;
     padding: 0px;
     border: 2px solid #b878cc;
+    text-align: start;
 
 }
 #padrao:hover{
      box-shadow: 0px 0px 20px 3px #dfccec;
      margin-top: -20px;
      border: 1px solid #b878cc;
+     transition: all 180ms ease-in-out;
 }
 #plus:hover{
     box-shadow: 0px 0px 20px 3px #dfccec;
     margin-top: -20px;
     border: 1px solid #b878cc;
+    transition: all 190ms ease-in-out;
 
 }
 
@@ -167,26 +192,27 @@ nav ul li a {
     box-shadow: 0px 0px 20px 3px #dfccec;
     margin-top: -20px;
     border: 1px solid #b878cc;
+    transition: all 180ms ease-in-out;
 }
 
 section ul li{
     color: #17181f;
     padding-bottom: 10px;
-    font-weight:500;
+    font-weight: 500;
     
 }
 
 .selectPlan{
     background-color:#17181f;
-    color: #edd1f3;
-    border: none;
-    border-radius: 10px;
+    color: #eeff00;
     height: 30px;
     width: 260px;
-    text-decoration: none;
-    
+    font-weight: bolder;
+    border-width: 3px;
+    border-color: #2a2b36;
     
 }
+
 #padrao .selectPlan{
     position: relative; left:-8%;
     margin-top: 140px;
@@ -200,9 +226,157 @@ section ul li{
     margin-top: 56px;
 }
 
-.selectPlan:hover{
-    box-shadow: 1px 1px 5px 1px #ffffff;
-    background-color: #17181f;
+/* Compra*/
+
+#buyContent{
+    height: 300px;
+    width: 500px;
+    background-color: #d5f1f0;
+    border: #70c2be solid 2px;
+    box-shadow: 0px 0px 20px 3px #93f1ed;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    padding: 15px;
+    
 }
 
+#resumo{
+    display: block;
+    margin: 0;
+    color: #2a2b36;
+}
+
+#total{
+    margin: 5;
+    display: block;
+    float: left;
+}
+
+#buyContent p{
+    float: right;
+}
+#containerBuy{
+    position: relative;
+    min-height: 100vh;
+}
 /* CONTATO */
+
+#conteudoContato{
+    height: 350px;
+    width: 500px;
+    background-color: #fcf7fd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px #dfccec;
+    border: 2px solid #b878cc;
+}
+
+.formContact{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.formContact #nome{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.formContact #email{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formContact #texto{
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    resize:none;
+}
+
+#bttPlan{
+    margin-top: 10px;
+    background-color: #17181f;
+    height: 50px;
+    width: 81%;
+    color: #eeff00;
+    border-width: 3px;
+    border-color: #2a2b36;
+    border-radius: 3px;
+    
+}
+
+
+/* footer*/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #17181fcb;
+    color: #eeff00;
+}   
+
+footer h3{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    opacity: 15%;
+  }
+
+footer ul {
+    list-style-type: none;
+    float: left;
+    margin-left: 60px;
+}
+footer ul li {
+    float: right;
+    margin-right: 30px;
+    
+}
+
+
+
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    color: #eeff00;
+  }
+  .fa-instagram {
+    color: #eeff00;
+  }
+
+  .fa-youtube{
+    color: #eeff00;
+  }
+  .fa-twitter{
+    color: #eeff00;
+  }
+
+
